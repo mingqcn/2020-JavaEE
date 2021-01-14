@@ -1,0 +1,90 @@
+{
+  "findAllUsers1": {
+    "errno": 0,
+    "data": {
+      "total": 11,
+      "pages": 4,
+      "pageSize": 3,
+      "page": 2,
+      "list": [
+        {
+          "id": 48,
+          "userName": "8532600003",
+          "mobile": "15448751556",
+          "name": "斯蒂芬",
+          "email": null,
+          "avatar": null,
+          "status": 1,
+          "depart_id": 0,
+          "gmtCreate": "2020-11-01T09:48:24",
+          "gmtModified": "2020-11-01T09:48:24"
+        },
+        {
+          "id": 49,
+          "userName": "7623000006",
+          "mobile": "13988751556",
+          "name": "阿卡前",
+          "email": null,
+          "avatar": null,
+          "status": 1,
+          "depart_id": 0,
+          "gmtCreate": "2020-11-01T09:48:24",
+          "gmtModified": "2020-11-01T09:48:24"
+        },
+        {
+          "id": 50,
+          "userName": "8043300005",
+          "mobile": "15988722556",
+          "name": "速度",
+          "email": "ss@133.com",
+          "avatar": null,
+          "status": 1,
+          "depart_id": 0,
+          "gmtCreate": "2020-11-01T09:48:24",
+          "gmtModified": "2020-11-01T09:48:24"
+        }
+      ]
+    },
+    "errmsg": "成功"
+  },
+  "findAllUsers2": {
+    "errno": 503,
+    "errmsg": "字段不合法"
+  },
+  "findUserSelf1": {
+    "errno": 0,
+    "data": {
+      "id": 1,
+      "userName": "13088admin",
+      "mobile": "16978955874",
+      "name": "随",
+      "email": "minge@163.com",
+      "avatar": null,
+      "status": 1,
+      "depart_id": 0,
+      "gmtCreate": "2020-11-01T09:48:24",
+      "gmtModified": "2020-11-01T09:48:24"
+    },
+    "errmsg": "成功"
+  },
+  "findUserById1": {
+    "errno": 0,
+    "data": {
+      "id": 46,
+      "userName": "8131600001",
+      "mobile": "15983424556",
+      "name": "个",
+      "email": "ees@123.com",
+      "avatar": null,
+      "status": 2,
+      "depart_id": 0,
+      "gmtCreate": "2020-11-01T09:48:24",
+      "gmtModified": "2020-11-01T09:48:24"
+    },
+    "errmsg": "成功"
+  },
+  "findUserById2": {
+    "errno": 504,
+    "errmsg": "操作的资源id不存在"
+  }
+}

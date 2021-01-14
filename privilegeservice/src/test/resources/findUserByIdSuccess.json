@@ -1,0 +1,18 @@
+{
+  "errno": 0,
+  "data": {
+    "id": 46,
+    "userName": "8131600001",
+    "mobile": "123345667722",
+    "name": "管理员2",
+    "email": "1232@qq.com",
+    "avatar": null,
+    "lastLoginTime": "2020-11-01T09:48:24",
+    "lastLoginIp": "111.73.169.226",
+    "status": 1,
+    "depart_id": 0,
+    "gmtCreate": "2020-11-01T09:48:24",
+    "gmtModified": "2020-11-01T09:48:24"
+  },
+  "errmsg": "成功"
+}

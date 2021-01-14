@@ -1,0 +1,23 @@
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8081
+  datasource:
+    url: jdbc:mysql://localhost:3306/oomall?serverTimezone=GMT%2B8
+    username: dbuser
+    password: 123456
+    druid:
+      stat-view-servlet:
+        login-username: admin
+        login-password: 123456
+        enabled: true
+        url-pattern: /druid/*
+  redis:
+    # Redis服务器地址
+    host: localhost
+    # Redis服务器连接端口
+    port: 6379
+    # Redis服务器连接密码
+    password: 123456

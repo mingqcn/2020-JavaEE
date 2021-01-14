@@ -1,0 +1,20 @@
+dubbo:
+  application:
+    name: dubbo-test
+  scan:
+    base-packages: cn.edu.xmu.oomall
+  registry:
+    address: nacos://localhost:8848
+  protocol:
+    name: dubbo
+    port: 19100
+
+spring:
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+server:
+  port: 9100
+
+rocketmq:
+  name-server: localhost:9876
